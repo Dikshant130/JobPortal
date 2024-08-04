@@ -1,0 +1,13 @@
+D:\JobPortal\src\main\java\com\dikshant\jobportal\config\SecurityConfig.java
+D:\JobPortal\src\main\java\com\dikshant\jobportal\controller\JobController.java
+D:\JobPortal\src\main\java\com\dikshant\jobportal\controller\UserController.java
+D:\JobPortal\src\main\java\com\dikshant\jobportal\dtos\UserRegistrationRequest.java
+D:\JobPortal\src\main\java\com\dikshant\jobportal\JobPortalApplication.java
+D:\JobPortal\src\main\java\com\dikshant\jobportal\model\Job.java
+D:\JobPortal\src\main\java\com\dikshant\jobportal\model\User.java
+D:\JobPortal\src\main\java\com\dikshant\jobportal\repository\JobRepository.java
+D:\JobPortal\src\main\java\com\dikshant\jobportal\repository\UserRepository.java
+D:\JobPortal\src\main\java\com\dikshant\jobportal\service\JobService.java
+D:\JobPortal\src\main\java\com\dikshant\jobportal\service\UserService.java
+D:\JobPortal\src\main\java\com\dikshant\jobportal\utils\EmailValidator.java
+D:\JobPortal\src\main\java\com\dikshant\jobportal\utils\PasswordValidator.java
