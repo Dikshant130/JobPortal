@@ -1,4 +1,8 @@
-FROM ubuntu:latest
-LABEL authors="diksh"
+FROM maven:3.9.5-openjdk-21 AS build
+COPY . .
+RUN mvn clean package -DskipTests
 
-ENTRYPOINT ["top", "-b"]
+FROM openjdk:21-jdk-slim
+COPY --from=build /target/JobPortal-0.0.1-SNAPSHOT.jar JobPortal.jar
+EXPOSE 8080
+ENTRYPOINT ["java", "-jar", "JobPortal.jar"]
