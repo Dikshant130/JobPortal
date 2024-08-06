@@ -1,5 +1,6 @@
 package com.dikshant.jobportal.dtos;
 
+
 public class UserRegistrationRequest {
 
     private String username;
